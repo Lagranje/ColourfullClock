@@ -1,0 +1,13 @@
+.clock {
+    font-size: 90px;
+    font-weight: bold; 
+    text-align: center;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}

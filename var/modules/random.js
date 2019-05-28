@@ -1,0 +1,7 @@
+function generateRandomHexColour() {
+
+}
+
+function generateRandomHexValue() {
+    
+}
