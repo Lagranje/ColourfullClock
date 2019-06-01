@@ -1,7 +1,7 @@
 requirejs.config({
     baseUrl: 'var/modules',
 });
-requirejs(['clock'],
-    function(clock) {
-    clock.refreshTime();   
+requirejs(['view'],
+    function(view) {
+        view.generateView();   
 });

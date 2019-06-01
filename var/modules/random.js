@@ -15,7 +15,7 @@ define([], function() {
             //returns colour in string like rbg(val, val, val) model
             generateRandomStringColour: function() {
                 var randomColours = this.generateRandomColourArray();
-                var result = ["rbg(", randomColours[0], ",", randomColours[1], ",", randomColours[2],")"];
+                var result = ["rgb(", randomColours[0], ",", randomColours[1], ",", randomColours[2],")"];
                 return result.join("");
             }
         }
