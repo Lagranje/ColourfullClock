@@ -1,5 +1,4 @@
 define([], function() {
-    //return an object to define the "my/shirt" module.
     return {
         ColorPicker: {
             //returns array with 3 values of RGB model
