@@ -1,11 +1,10 @@
-define(['random'], function(random){
+define(['color'], function(color){
     return {
-        setBackground: function() {
+        setBackground: function(period) {
+            color.init(period);
             setInterval(() => {
-                var colorPicker = random.ColorPicker;
-                document.body.style.background = colorPicker.generateRandomStringColour();
-            }, 500);
-            
-        }
+                document.body.style.background = color.getCurrentColor();
+            }, period);
+        },
     }
 })
